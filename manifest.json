@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Tab Numbering",
+  "version": "1.0",
+  "description": "Adds numbers to Firefox tabs",
+  "permissions": [
+    "tabs",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
+
